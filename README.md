@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./docs/_static/icon.png" width="48px"/>
+  <img src="./resources/icon.png" width="48px"/>
 </p>
 
 # aioyagmail -- Yet Another GMAIL/SMTP client, using AsyncIO
