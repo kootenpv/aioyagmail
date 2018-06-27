@@ -28,4 +28,4 @@ with open('aioyagmail/__init__.py', 'w') as f:
 
 py_version = "python3.7" if sh.which("python3.7") is not None else "python"
 os.system('{} setup.py sdist bdist_wheel'.format(py_version))
-os.system("twine upload")
+os.system("twine upload dist/*")
