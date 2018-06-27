@@ -1,18 +1,19 @@
 from setuptools import setup
 from setuptools import find_packages
 
-with open('README.rst') as f:
+with open('README.md') as f:
     LONG_DESCRIPTION = f.read()
 
 MAJOR_VERSION = '0'
 MINOR_VERSION = '0'
-MICRO_VERSION = '0'
+MICRO_VERSION = '2'
 VERSION = "{}.{}.{}".format(MAJOR_VERSION, MINOR_VERSION, MICRO_VERSION)
 
 setup(name='aioyagmail',
       version=VERSION,
       description='Yet Another GMAIL client, using AsyncIO',
       long_description=LONG_DESCRIPTION,
+      long_description_content_type='text/markdown',
       url='https://github.com/kootenpv/aioyagmail',
       author='Pascal van Kooten',
       author_email='kootenpv@gmail.com',
